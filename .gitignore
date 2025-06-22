@@ -1,0 +1,121 @@
+/evelyn/
+
+# Ignorar ambientes virtuais Python
+venv/
+.venv/
+env/
+__pycache__/
+
+/studies/
+
+
+# Ignorar todos os diretórios "gavitsa"
+gavitsa/
+
+# Ignorar arquivos .pyc (arquivos de bytecode Python)
+*.pyc
+
+# Ignorar o diretório __pycache__
+__pycache/
+
+
+# Ignorar arquivos de dependências
+/requirements.txt
+/Pipfile
+/Pipfile.lock
+/conda-requirements.txt
+
+# Ignorar arquivos de modelos treinados
+/models/
+
+# Ignorar resultados e checkpoints de notebooks Jupyter
+*.ipynb_checkpoints/
+/output/
+
+# Ignorar resultados intermediários
+/results/
+/tmp/
+/cache/
+
+
+# Ignorar arquivos de ambiente virtual
+venv/
+
+# Arquivos de compilação e executáveis
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+*.class
+*.jar
+*.o
+*.obj
+
+# Arquivos gerados automaticamente
+*.log
+.log.*
+*.tmp
+*.temp
+*.cache
+.cachefile
+*.swp
+.swo
+.DS_Store
+Thumbs.db
+
+# Diretórios e arquivos de saída de compilação
+/bin/
+/obj/
+/out/
+/build/
+
+# Dependências de pacotes
+/node_modules/
+/vendor/
+
+# Arquivos de configuração pessoal
+.env
+.env.local
+.env.dev
+.env.prod
+.config/
+
+# Arquivos sensíveis
+.pem
+.key
+.crt
+.password
+.secrets
+.ssh/
+
+# Logs e arquivos de registro
+/log/
+/logs/
+*.log
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Diretórios de saída de IDEs e editores
+.vscode/
+.idea/
+.project
+
+# Ignorar arquivos CSV
+*.csv
+
+# Ignorar arquivos Parquet
+*.parquet
+
+# Ignorar arquivos XLS e XLSX
+*.xls
+*.xlsx
+
+# Ignorar arquivos JSON
+*.json
