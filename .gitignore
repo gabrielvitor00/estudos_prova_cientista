@@ -107,8 +107,6 @@ Thumbs.db
 .idea/
 .project
 
-# Ignorar arquivos CSV
-*.csv
 
 # Ignorar arquivos Parquet
 *.parquet
